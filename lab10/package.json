@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "chai": "^5.1.1",
+    "chromedriver": "^123.0.1",
+    "selenium-webdriver": "^4.21.0",
+    "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.5",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "testAvCheckVin": "jest testAvCheckVin.test.js",
+    "testCarWashServices": "jest testCarWashServices.test.js"
+  }
+}
